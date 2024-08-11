@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html style="background-color: #0f1729; ;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon1.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon1-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" hr
+ef="/favicon1-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <title>
+    Hablu Programmmer.com
+  </title>
+
+<style>
+    h1 {
+      font-family: sans-serif;
+      font-size: 200%;
+    }
+
+    h3 {
+      color: rgb(48, 180, 228);
+    }
+
+    .bigdiv {
+      background-color: #2f2b8b;
+      margin: 10%;
+      margin-top: 3%;
+      margin-bottom: 2%;
+      padding: 75px 0;
+      border-radius: 20px;
+      font-size: large;
+      color: #c0cfd8;
+      box-shadow: #2f2b8b;
+      justify-content: space-around;
+      display: flex;
+    }
+
+    .bigdiv:hover {
+      transition: 1s;
+      transform: scale(1.1);
+    }
+
+    .bigdiv div {
+      text-align: center;
+    }
+
+    img {
+      width: 20%;
+
+    }
+
+    .box {
+      margin-top: 4%;
+      display: flex;
+
+      & div {
+        padding: 115px 5px;
+
+        border-radius: 20px;
+        background-color: #202737;
+
+
+        p {
+          color: rgb(177, 172, 172);
+        }
+
+
+      }
+
+      gap: 30px;
+
+      .boc {
+        text-align: center;
+      }
+
+      .boc:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+      }
+
+
+    }
+    .mainscroll{
+
+
+
+
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+
+    }
+    
+    
+    
+    
+    .scroll{
+
+display: grid;
+ gap: 30px;
+
+ justify-content: space-between;
+  vertical-align: top;
+
+  line-height: 150%;
+
+
+
+}
+.sticky{
+  position: sticky;
+
+  
+  top:100px;
+}
+.scroller{
+overflow-y: scroll;
+    scrollbar-color:transparent transparent;
+    transform: translateX(100%);
+
+  }
+
+  .scroller .box {
+    & div {
+       }
+  }
+  .unfit{
+    padding: 0 0;
+  }
+.call{
+  display: flex;
+  justify-content: space-around;
+  img{
+    width: 100%;
+  
+  }
+}.box1 {
+      margin-top: 4%;
+      display: flex;
+    
+
+      & div {
+        padding: 4px 5px;
+
+        border-radius: 20px;
+        background-color: #202737;
+
+
+        p {
+          color: rgb(177, 172, 172);
+        }
+img{
+  width: 100px;
+}
+
+      }
+
+      gap: 30px;
+
+      .boc {
+        text-align: center;
+      }
+
+      .boc:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+      }
+
+
+    }
+    @media only screen and (max-width: 1178px) {
+      .box {
+        display: grid;
+    justify-content: center;
+
+.boc{
+
+       width: 360px;margin: 2% 0%;
+}
+
+      }
+
+   
+
+      .bigdiv {
+        display: grid;
+
+
+      }
+
+    .scroller{
+      display: grid;
+      transform: translateX(0%) !important;
+      padding: 0 0 !important;
+    }
+.scroll{
+  display:block;
+  position: relative;
+
+  justify-content: center;
+  vertical-align: auto;
+  line-height: normal;
+}
+.box1{
+  display: grid;
+  .boc{
+    margin: 1.5% 0%;
+  }
+
+}
+  
+.call{
+  display: grid;
+  P{
+  display: contents;
+  }
+}  .scroller{
+padding:relative;
+display: grid;
+      transform: translateX(0%) !important;
+      padding: 0 0 !important;
+  }
+.sticky{
+  position: relative !important;
+}}
+
+    @media only screen and (max-width: 700px) {
+      .box {
+        display: grid;
+
+      }
+
+      .bigdiv {
+        display: grid;
+
+
+      }
+
+    .scroller{
+      display: grid;
+    }
+.scroll{
+  display: grid;
+}
+    }
+
+
+    @media only screen and (max-width: 448px) {
+      .box {
+        display: grid;
+    justify-content: center;
+
+.boc{
+
+       width: 290px;margin: 2% 0%;
+}
+
+      }
+
+   
+
+      .bigdiv {
+        display: grid;
+
+
+      }
+
+    .scroller{
+      display: grid;
+    }
+.scroll{
+  display: grid;
+  justify-content: center;
+  
+}
+.box1{
+  display: grid;
+  .boc{
+    margin: 1.5% 0%;
+  }
+
+}
+  
+.call{
+  display: grid;
+  P{
+  display: contents;
+  }
+}  }
+
+
+
+
+    
+  </style>
+
+
+</head>
+
+
+<body style="color: aliceblue;margin: 3%">
+ 
+
+  <center style="position: fixed;top: 50%;transform: translate(-50%,-50%);left: 50%;" class="loadercontainer">
+    <div class="loader" style=""></div></center> 
+    <div class="showbody">
+
+  <div class="bgoverlay" style="height: 100vh;width: 90vw;position: absolute;" id="body"></div>
+  <div class="formpopup" id="logform"  >
+    <div class="formbox"><h2>
+        Login With Hablu-Programmer</h2>
+      <div class="formdetails">
+        <div class="formcontent"><h3>Enter Your Email</h3>
+        <form class="formaction">
+          <div class="inputfield">
+            <input type="text">
+            <label for="email"></label>
+          </div>
+          <h3>Enter Your Password</h3>
+          <div class="inputfield">
+            <input type="password" name="" id="">
+            <label for="password"></label>
+          </div> <br><br>
+          <a href="#" class="forgetpass">Forget Password</a><br><br>
+          <button style="text-decoration: none;"><a href="habluprogrammercoursepage.html" style="width: inherit;color: whitesmoke;text-decoration: none;">Login</a></button>
+          
+        </form> <br><br>
+        <center><div class="bottom-link">
+        or join with <br>
+        <a href=""></a> <a href=""></a><br>
+        don't have an account?<a href="">Sign Up</a>
+      </div></center>
+      </div></div>
+    </div>
+  </div>
+  <div class="bg " tabindex="-1" id="menubody" aria-labelledby="" style="color: #fff;" >
+       
+    <div class="offcanvas-body" >
+      <ul style="display: grid;">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="courses.html" >Courses</a></li>
+        <li><a href="hpprivacypolicy.html" >Privacy Policy</a></li>
+        <li><a href="hpfaq.html" >FAQ</a></li>
+
+        <li style="position: relative;" ><a href="#"  ><img src="account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""  style="width:8% ;" id="formpopup"></a></li> 
+        <li class="menu">
+
+        </li>
+        <li>Copyright © 2024 Hablu-Programmer</li>
+        
+
+      </ul>
+           
+    </div>
+  </div> 
+  <header style="padding-right: 0 !important;">
+    <nav > <div> <a href="index.html"><img src="logoOne.webp" alt="" id="img"></a></div>
+      <div class="navdiv " style="font-size: large;position: relative;">
+        <ul style="">
+          <li><a href="index.html" class="activ">Home</a></li>
+          <li><a href="courses.html" class="activ">Courses</a></li>
+          <li><a href="hpprivacypolicy.html" class="activ">Privacy Policy</a></li>
+          <li><a href="hpfaq.html" class="activ">FAQ</a></li>
+  
+          <li style="position: relative;" class="log log2"><a href="#" id="loginicn" ><img src="account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="24px" style="position: absolute;width: 80%;top:9px;" ></a></li> 
+          <li><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+            <img src="" alt="" width="26px" >
+                </span><span class="material-symbols-outlined">
+                  <img src="" alt="" width="26px" >
+                      </span></a></li>
+                <li><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+               
+                      </span></a></li>
+                      <li class="menu" >
+                        <a class=" md-hidden " href="#menubody" id="menu" style="position: absolute;right: 20%;display: none;top: 5.5px;background-color: #0f172900  ;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 23 23" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12ZM13 18C13 17.4477 13.4477 17 14 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H14C13.4477 19 13 18.5523 13 18Z" fill="#ffff"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" id="Capa_1" viewBox="0 0 490 490" xml:space="preserve" style="display: none;">
+                              <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490   489.292,457.678 277.331,245.004 489.292,32.337 "/>
+                              </svg>
+                        </a>
+              
+                      </li>
+          
+  
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+  <div style="margin-top: 90px;"><hr></div><br>
+  <br><br>
+  
+
+  <article style="margin:1%;" class="bginterface">  <div class="headline">
+    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size:200%;">Journey Of <font color="#5b41d5">Frontend
+        Web <br>Development</font>
+    </h1>
+ 
+  <p style="font-family:sans-serif; color: rgb(145, 142, 142);" class="p">We Stongly Beleive In Personaized Learning & Empower
+    <br>
+    Individuals To Kick-Start Their Careers. There Is No Chance Of <br>
+    Falling Behind,With a Module-Wise Structure & Project Based <br>
+    Study Plan Packed With Quizzes,Assignments,Practice <br>
+    Homework For Interview Preparation & Special Guidance For <br>
+    Freelancing In Just One Course <br> <br> <a href="#">
+    <div class="enroll" ><button id="button"><a href="#" id="forming">Enroll Now | 5000tk</a></button><s style="font-size:125%; ">6000৳</s><div style="font-family: Arial, Helvetica, sans-serif; gap:15px;font-size: medium;line-height: 22px;">17% off <br>
+      <font style="color: orangered;">260 seats left</font></div></div></div>   </a>
+ 
+  </p> <br><br><div><iframe width="660" height="415"
+    src="https://www.youtube.com/embed/tw0JF-xVniU?si=YdcXiN78tQ19uUVS" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+
+
+ 
+</article>  <br><br><br><br><br><br>
+ 
+
+    <center>
+      <h1>Upcoming <font color="#5b41d5">Batch Schedule</font>
+      </h1>
+    </center>
+
+  <div class="bigdiv">
+
+
+
+
+
+    <div>
+      <h3>Enrollment Starts</h3>
+      <h4>1 Jun, 2024</h4>
+    </div>
+
+
+
+    <div>
+      <h3>Enrollment Ends</h3>
+      <h4>29 Jun, 2024</h4>
+    </div>
+
+
+
+
+
+
+
+    <div>
+      <h3>Orientation Starts</h3>
+      <h4>1 July, 2024</h4>
+    </div>
+
+
+
+
+
+    <div>
+      <h3>Class Starts</h3>
+      <h4>2 July, 2024</h4>
+    </div>
+    <center ><button class="btnn"><a href="#" id="enroll">Enroll Now</a></button></center>
+  </div>
+  <center>
+    <div>Course Fees <font style="color: aqua;">৫০০০ টাকা</font><br>
+
+      If You Are Interested To Enroll In 1st Batch Then Register On The Website</div>
+  </center>
+  <div><br><br><br><br><br><br></div>
+
+
+
+  <center>
+    <h1>What Is The Specialty Of <font color="#5b41d5">This <br> Course?</font>
+    </h1>
+    <p>Let's Take A Look</p>
+  
+  </center>
+  <div>
+
+
+
+    <div class="box">
+
+
+      <div class="boc">
+        <center><img src="career.png" alt=""><br>
+          <h4>Freelancing & Job Placement Guide</h4>
+
+        </center>
+        <p>Only Serious Course Completers Will <br>Get A Freelancing Guide And Job <br>Placement Support From Zero To
+          Until <br> Success Your Career.</p>
+      </div>
+
+
+      <div class="boc">
+        <center><img src="video-chat.png" alt="">
+          <h4>400+ Contents & 120 Modules</h4>
+          <p>In This Course You Will Learn Everything <br>It Takes To Become A Junior Frontend <br> Web Developer. The
+            Course Is Divided <br>Into 120 Modules & 400+ Recorded Contents For Step-By-Step Project<br>Based Learning.
+          </p>
+        </center>
+      </div>
+
+
+
+      <div class="boc">
+        <center><img src="video-player.png" alt="" class="notfit"><br>
+          <h4>Recorded & Live Session</h4>
+          <p>Learn Something New Everyday By <br> Watching Recorded Conceptual Classes <br> And Join Live Classes For
+            Clearing
+            Your <br> Doubts.</p>
+        </center>
+      </div>
+
+
+      <div class="boc">
+        <center><img src="analysis.png" alt="" class="notfit"><br>
+          <h4>Conceptual Crash Course</h4>
+          <p>You Are Not Just Enrolling In One <br> Course. It's A Mission To Learn Lifelong <br> Programming Journey
+            With Hablu <br>
+            Programmer.</p>
+        </center>
+      </div>
+    </div>
+
+
+
+    <div class="box">
+
+      <div class="boc">
+        <center>
+          <img src="training.png" alt=""><br>
+          <h4>40+ Projects</h4>
+          <p>Everyday We Will Give You Particular <br> Task. You Have To Spend 4-5 Hours <br> Watching, Practicing The
+            Tutorial.The Videos <br> Are Made Following Project Based Learning Process. You Will Do <br> 40+ Projects In
+            This
+            Course.</p>
+        </center>
+      </div>
+
+
+      <div class="boc">
+        <center><img src="code_1251736.png" alt=""><br>
+          <h4>15+ Assignments</h4>
+          <p>There Is No Chance Of Falling Behind,<br> With A Module-Wise Structured Study <br> Plan And Each Module
+            There Will
+            Be <br> Assignments That You Will Do Yourself.</p>
+        </center>
+      </div>
+
+
+      <div class="boc">
+        <center><img src="career.png" alt="" class="notfit"><br>
+          <h4>Unlimited Support</h4>
+          <p>Everyday 16 Hours Special Team Will <br> Waiting For Support To You In Live <br> Video Conference Via Zoom
+            Or Meet.
+          </p>
+        </center>
+      </div>
+
+      <div class="boc">
+        <center><img src="gift-box.png" alt=""><br>
+          <h4>Rewards And Recognition</h4>
+          <p>You Are Not Just Enrolling In One <br> Course. After Finishing The Course You <br> Will Get Rewards Modules
+            For
+            Learning <br> Advance And Latest Technology Crash <br> Courses For Free Life Time./p>
+        </center>
+      </div>
+
+
+    </div>
+
+
+
+ <br><br><br>
+
+  <div class="mainscroll"> <div class="scroll">
+
+     
+
+      <div style="position: sticky;" class="sticky ">
+        <h1>What You Will Learn In <font color="#5b41d5">This Course!</font>
+        </h1>
+        <p class="p">You Will Learn Everything Needed To Become A Junior Frontend Web<br> Developer. Begin From HTML, CSS, Vs
+          Code, Git & GitHub, Bootstrap,<br> Sass, Javascript, ES6, Chrome Dev Tools, JSON, DOM, BOM, Web API. <br><br>
+
+          Not Only That, You Will Also Learn The Most Famous JavaScript Library <br> & Framework React JS & Next JS.
+          <br><br>
+
+          Also You Will Learn Most Popupler Programming Language TypeScript <br> & Some Animation Library. After
+          Finishing This Course You Will Get <br> Special Guideline Session For Job Interview Preparation & Freelancing
+          <br> Guide.</p>
+        <pre><button id="button"><a href="hpenrollmentpage.html">Interested</a></button></pre>
+
+      </div>
+
+      <div class="scroller"  >
+
+        <div class="box1">
+
+          <div class="boc"><br><br><br><br>
+            <center><img src="rsz_htmlrl.png" alt=""><br>
+              <h3>HTML 5</h3>
+              <p>The HyperText Markup Language Or HTML <br> Is The Standard Markup Language For <br> Documents Designed To Be
+                Displayed In A <br> Web Browser. It</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/logo-ga586987c4_640.png" alt="" class="unfit" style="padding: 50px 10px;!important"><br>
+              <h3>CSS 3</h3>
+              <p>Cascading Style Sheets Is A Style Sheet <br> Language Used For Specifying  The<br> Presentation And Styling Of A Document <br> Written In A Markup Language Such As <br> HTML Or XML.</p>
+            </center>
+          </div>
+        </div>
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="rsz_git-icon.png" alt=""><br>
+              <h3>Git</h3>
+              <p>Git Is A Free And Open-Source Version  <br>Control System,It's Goals Include Speed,<br>Data Integrity,And Support<br>For Distributed,Non-Linear Workflows.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/github.png" alt="" class="unfit"><br>
+              <h3>GitHub</h3>
+              <p>GitHub, Inc. Is A Developer Platform That <br> Allows Developers To Create, Store, <br> Manage And Share Their Code. It Uses Git <br> Software, Providing The Distributed <br> Version Control Of Git Plus Access Control.</p>
+            </center>
+          </div>
+        </div>
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/chrome-dev-logo-icon.png" alt=""><br>
+              <h3>Chrome Devtools</h3>
+              <p>Chrome DevTools Is A Set Of Web <br> Developer Tools Built Directly Into The <br> Google Chrome Browser. These Tools <br>Let You Inspect The Rendered HTML <br>(DOM)And Network Activity Of Your Pages.<br> You Can Use DevTools To Troubleshoot Ad<br> Serving Issues.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/vscode.png" alt=""><br>
+              <h3>VS Code</h3>
+              <p>Visual Studio Code, Also Commonly<br> Referred To As VS Code, Is A Source-<br>Code Editor Developed By Microsoft For<br> Windows, Linux And MacOS. Features <br>Include Support For Debugging, Syntax<br> Highlighting, Intelligent Code <br>Completion, Snippets, Code Refactoring,<br> And Embedded Git</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/tailwindcss.png" alt=""><br>
+              <h3>Tailwind CSS</h3>
+              <p>A Utility-First CSS Framework Packed With<br>Classes.Tailwind CSS Is An Open Source<br> CSS Framework.The Main Feature Of This<br> Library Is That,Unlike Other CSS<br>Frameworks Like Bootstrap.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/bootstrap.png" alt=""><br>
+              <h3>Bootstrap 5</h3>
+              <p>Bootstrap Is The Most Popular CSS<br> Framework For Developing Responsive<br> And Mobile-First Websites.Bootstrap 5 Is<br>The Newest Version Of Bootstrap</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/sass.png" alt=""><br>
+              <h3>Sass</h3>
+              <p>Sass Is A Preprocessor Scripting Language <br>That Is Interpreted Or Compiled Into <br>Cascading Style Sheets. SassScript Is The <br>Scripting Language Itself.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/JavaScript-logo.png" alt=""><br>
+              <h3>JavaScript</h3>
+              <p>JavaScript Is A Scripting Language That <br>Enables You To Create Dynamically <br>Updating Content, Control Multimedia,<br> Animate Images, And Pretty Much<br> Everything Else</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/ES6.png" alt=""><br>
+              <h3>ECMAScript</h3>
+              <p>ES6 Stands For ECMAScript 6.<br>ECMAScript Was Created To Standardize <br>JavaScript, And ES6 Is The 6th Version <font style="color: transparent;;">Of</font> <br>of ECMAScript,  In This Course We  Will <br>Explore  From ES6 ToLatest Version</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/json.png" alt=""><br>
+              <h3>JSON</h3>
+              <p>JSON Stands For JavaScript Object<br> Notation. JSON Is A Lightweight Format<br> For Storing And Transporting Data, JSON <br>Is Often Used When Data Is Sent From A <br>Server To A Web Page</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/jsdom.png" alt=""><br>
+              <h3>DOM</h3>
+              <p>The Document Object Model (DOM) Is A<br>Programming Interface For Web<br>Documents.It Represents The Page So<br> That Programs Can Change The<br>Document Structure,Style,And Content.<br>The DOM Represents The Document As<br> Nodes And Objects;That Way,<br>Programming Languages Can Interact<font style="color: transparent;font-size: 7px;">Of</font>With<br>The Page.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/BOM.png" alt=""><br>
+              <h3>BOM</h3>
+              <p>The Browser Object Model (BOM) Is A<br> Collection Of Objects Exposed By The<br> Browser That Allow JavaScript To Interact<br> With The Browser Window,Document,<br>And Other Browser-Specific Functionalities.<br>The BOM Includes Objects Such As <br>Window,Navigator,Location,History,And <br>Screen.</p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="Img/webapi.png" alt=""><br>
+              <h3>WEB API</h3>
+              <p>API Stands For Application Programming <br>Interface. A Web API Is An Application<br> Programming Interface For The Web. A<br> Browser API Can Extend The Functionality<br> Of A Web Browser. A Server API Can<br> Extend The Functionality Of A Web Server.</p>
+            </center>
+          </div>
+          <div class="boc">
+            <center><img src="Img/react.png" alt=""><br>
+              <h3>React JS</h3>
+              <p>React Is A Free And Open-Source Front-<br>End JavaScript Library For Building User<br> Interfaces Based On Components. It Is<br> Maintained By Meta And A Community Of <br>Individual Developers And Companies.
+
+              </p>
+            </center>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="box1">
+
+          <div class="boc">
+            <center><img src="nextjs.webp" alt=""><br>
+              <h3>Next JS</h3>
+              <p>Next.Js Is A React Framework For Building<br> Full-Stack Web Applications. You Use React <br>Components To Build User Interfaces, And<br> Next.Js For Additional Features And <br>Optimizations. Under The Hood, Next.Js<br> Also Abstracts And Automatically <br>Configures Tooling Needed For React, Like<br> Bundling, Compiling, And More.</p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div></div> 
+</div><br><br><br><br>
+<div><center><h1>Special <font color="#5b41d5"> Rewards </font></h1>
+<p style="line-height: 150%;">On Time Course Finishers Will Get <br> Special Rewards To Start Their Career.</p></center></div>
+
+
+<div class="box">
+
+
+  <div class="boc">
+    <center><img src="self-employed.png" alt=""><br>
+      <h4>Freelancing & Job Placement Guide</h4>
+
+    </center>
+    <p>Only Serious Course Completers Will <br>Get A Freelancing Guide And Job <br>Placement Support From Zero To
+      Until <br> Success Your Career.</p>
+  </div>
+
+
+  <div class="boc">
+    <center><img src="certificate.png" alt="">
+      <h4>400+ Contents & 120 Modules</h4>
+      <p>In This Course You Will Learn Everything <br>It Takes To Become A Junior Frontend <br> Web Developer. The
+        Course Is Divided <br>Into 120 Modules & 400+ Recorded Contents For Step-By-Step Project<br>Based Learning.
+      </p>
+    </center>
+  </div>
+
+
+
+  <div class="boc">
+    <center><img src="rsz_1redux.png
+      " alt="" class="notfit"><br>
+      <h4>Recorded & Live Session</h4>
+      <p>Learn Something New Everyday By <br> Watching Recorded Conceptual Classes <br> And Join Live Classes For
+        Clearing
+        Your <br> Doubts.</p>
+    </center>
+  </div>
+
+
+  <div class="boc">
+    <center><img src="analysis.png" alt="" class="notfit"><br>
+      <h4>Conceptual Crash Course</h4>
+      <p>You Are Not Just Enrolling In One <br> Course. It's A Mission To Learn Lifelong <br> Programming Journey
+        With Hablu <br>
+        Programmer.</p>
+    </center>
+  </div>
+  <div class="boc">
+    <center><img src="rsz_ts.png" alt="" class="notfit"><br>
+      <h4>TypeScript Full Course</h4>
+      <p>TypeScript Is A Free And Open-Source <br> High-Level Programming Language <br> Developed By Microsoft That Adds Static <br> Typing With Optional Type Annotations <br> To JavaScript.</p>
+    </center>
+  </div>
+</div>
+<br><br>
+
+
+
+<div class="call" >
+ <div><h1>Please Contact With Our <font color="#5b41d5">Support <br> Team</font>
+  </h1>
+  <p class="p">We Have Created A Strong Support Team To Help You 16 Hours br Everyday. <br> For This Course We Have A Private Discord Server, Private Facebook Group <br> And Live Support Team.  Where Course Instructur Eshan  Ahmed Ahad And<br> 4-5 Others Software Engineer Wating For To Support  You. We Promise To Answer<br> Your Questions Within 6 Hours Maximum. But In Most Cases You Will Get The  <br>Answer In Less Time Than That. br Besides, Every Week There Will Be Live<br> Session On The Discussed Module Where You Can Directly Ask Questions <br>And Get Answers.<p>
+  <pre><button id="button"><a href="hpenrollmentpage.html">Call Us</a></button></pre>
+</div> 
+
+
+<div style=""><img src="contact.webp" alt="" class=""></div>
+</div>
+<hr>
+<footer class=".footer">
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul class="links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refumd Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Success Story</a></li>
+          <li><a href="#">My Account</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Social Links</h4>
+        <ul class="links">
+          <li><a href="https://www.youtube.com/@HabluProgrammer">Youtube</a></li>
+          <li><a href="https://www.linkedin.com/company/hablu-programmers">Linkedin</a></li>
+          <li><a href="https://github.com/Hablu-Programmer">github</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <h4>Contact Info</h4>
+          <li>Call Us: +880 1816986263</li>
+          <li>Address: Dhaka,Bangladesh.</li>
+          <li>Mail Us: support@hablu-programmer.com</li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    Copyright © 2024 Hablu-Programmer | All Rights Reserved
+  </section>
+</footer>
+<hr><br><br>
+<div>
+ <center> <img src="sslcommerz-banner.webp" alt=""></center>
+</div></div>
+</body>
+<script src="script.js"></script>
+
+  </html> 

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html style="background-color: #0f1729; ;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon1.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon1-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" hr
+ef="/favicon1-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <title>
+    Hablu Programmmer.com
+  </title>
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: bg;
+  color: whitesmoke;
+  display:contents;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0;
+  padding: 4rem;
+  width: 100%;
+  color: aliceblue;
+}
+
+.accordion {
+  .accordion-item {
+    border-bottom: 1px solid lightgray;
+    button[aria-expanded='true'] {
+      border-bottom: 1px solid #ffff;
+      color: aliceblue;
+    }
+  }
+  button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: text;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+    &:hover, &:focus {
+      cursor: pointer;
+      color: #fff;
+      &::after {
+        cursor: pointer;
+        color: #ffff;
+        border: 1px solid #ffff;
+      }
+    }
+    .accordion-title {
+      padding: 1em 1.5em 1em 0;
+      color: aliceblue;
+    }
+    .icon {
+      display: inline-block;
+      position: absolute;
+      top: 18px;
+      right: 0;
+
+      width: 22px;
+      height: 22px;
+      border: 1px solid;
+      border-radius: 22px;
+      &::before {
+        display: block;
+        position: absolute;
+        content: '';
+        top: 9px;
+        left: 5px;
+        width: 10px;
+        height: 2px;
+        background: currentColor;
+      }
+      &::after {
+        display: block;
+        position: absolute;
+        content: '';
+        top: 5px;
+        left: 9px;
+        width: 2px;
+        height: 10px;
+        background: currentColor;
+      }
+    }
+  }
+  button[aria-expanded='true'] {
+
+    .icon {
+      &::after {
+        width: 0;
+      }
+    }
+    .accordion-content {
+      opacity: 1;
+      max-height: 9em;
+      transition: all 200ms linear;
+      will-change: opacity, max-height;
+    }
+  }
+  .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      margin:  0;
+    }
+  }
+}
+
+
+</style>
+
+  </head>
+  <body style="margin:3%;">
+    
+
+  <center style="position: fixed;top: 50%;transform: translate(-50%,-50%);left: 50%;" class="loadercontainer">
+    <div class="loader" style=""></div></center>
+    <div class="showbody">
+
+    <div class="bgoverlay" style="height: 100vh;width: 90vw;position: absolute;" id="body"></div>
+    <div class="bg " tabindex="-1" id="menubody" aria-labelledby="" style="color: #fff;" >
+       
+      <div class="offcanvas-body" >
+        <ul style="display: grid;">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="courses.html" >Courses</a></li>
+          <li><a href="hpprivacypolicy.html" >Privacy Policy</a></li>
+          <li><a href="hpfaq.html" >FAQ</a></li>
+  
+          <li style="position: relative;" ><a href="#"  ><img src="account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="24px" style="position: absolute;top: 9.4px;" id="formpopup"></a></li> 
+          <li class="menu">
+
+          </li>
+          <li>Copyright © 2024 Hablu-Programmer</li>
+          
+  
+        </ul>
+             
+      </div>
+    </div>
+    <div class="formpopup" id="logform"  >
+      <div class="formbox"><h2>
+          Login With Hablu-Programmer</h2>
+        <div class="formdetails">
+          <div class="formcontent"><h3>Enter Your Email</h3>
+          <form class="formaction">
+            <div class="inputfield">
+              <input type="text">
+              <label for="email"></label>
+            </div>
+            <h3>Enter Your Password</h3>
+            <div class="inputfield">
+              <input type="password" name="" id="">
+              <label for="password"></label>
+            </div> <br><br>
+            <a href="#" class="forgetpass">Forget Password</a><br><br>
+            <button style="text-decoration: none;"><a href="faqlog.html" style="width: inherit;color: whitesmoke;text-decoration: none;">Login</a></button>
+            
+          </form> <br><br>
+          <center><div class="bottom-link">
+          or join with <br>
+          <a href=""></a> <a href=""></a><br>
+          don't have an account?<a href="">Sign Up</a>
+        </div></center>
+        </div></div>
+      </div>
+    </div>
+      
+<header>
+  <nav> <div> <a href="index.html"><img src="logoOne.webp" alt="" id="img"></a></div>
+    <div class="navdiv" >
+      <ul>
+        <li><a href="index.html" class="activ">Home</a></li>
+        <li><a href="courses.html" class="activ">Courses</a></li>
+        <li><a href="hpprivacypolicy.html" class="activ">Privacy Policy</a></li>
+        <li><a href="hpfaq.html" class="activ">FAQ</a></li>
+        
+
+        <li style="position: relative;"><a href="#" id="formpopup" class="log" ><img src="account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="24px" style="position: absolute;top: 9.4px;"></a></li> 
+        <li class="menu" >
+          <a class=" md-hidden " href="#menubody" id="menu" style="position: absolute;right: 30%;display: none;top: 5.5px;background-color: #0f172900  ;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 23 23" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12ZM13 18C13 17.4477 13.4477 17 14 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H14C13.4477 19 13 18.5523 13 18Z" fill="#ffff"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" id="Capa_1" viewBox="0 0 490 490" xml:space="preserve" style="display: none;">
+                <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490   489.292,457.678 277.331,245.004 489.292,32.337 "/>
+                </svg>
+          </a>
+
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+</header>
+<div style="margin-top: 90px;"><hr style="margin: 3%;"></div><br>
+<br><br>
+    
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-button" id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How Can I Get The Course Videos?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Course Videos Will Be Pre-Recorded & Weekly Live Session. You Have To Create An Account And Register For This Course. From The Beginning, Videos Will Be Distributed In One Chapter Every Day. Each Chapter Typically Has 3 To 8 Videos. You Must Watch These Videos Within 24 Hours Of Our Release.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button  class="accordion-button" id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How Much Time Will Take To Finish The Course?
+
+            </span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>If You Watch Tutorials For 1 To 2 Hours And Practice Those For 4 To 6 Hours, It Will Take 4 Months To Complete The Course. You Must Have A Hard Working Mentality For Enrolling In This Course.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button  class="accordion-button" id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button  class="accordion-button" id="accordion-button-4" aria-expanded="false"><span class="accordion-title">What I Will Learn From This Course?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>You Will Learn Everything Needed To Become A Junior Frontend Web Developer. Begin From HTML, CSS, Vs Code, Git & GitHub, Bootstrap, Sass, Javascript, ES6, Chrome Dev Tools, REST API, JSON, DOM, BOM, Web API. Not Only That, You Will Also Learn The Most Famous JavaScript Library & Framework React JS & Next JS. Also You Will Learn Most Popupler Programming Language TypeScript & Some Animation Library. After Finishing This Course You Will Get Special Guideline Session For Job Interview Preparation & Freelancing Guide.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-button"  id="accordion-button-5" aria-expanded="false"><span class="accordion-title">For whom is this course?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>This Course Is For Those People Who Want To Learn Front-End Web Development From Beginner Level To Advance Level With Quiz And Projects Also With Live Supports.</p>
+            </div>
+          </div>
+        </div>
+      </div><br><hr style="margin-left:4%;margin-right:4% ;">
+       <footer class=".footer"> 
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul class="links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refumd Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="links">
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Success Story</a></li>
+            <li><a href="#">My Account</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social Links</h4>
+          <ul class="links">
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">github</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <ul>
+            <h4>Contact Info</h4>
+            <li>Call Us: +880 1816986263</li>
+            <li>Address: Dhaka,Bangladesh.</li>
+            <li>Mail Us: support@hablu-programmer.com</li>
+          </ul>
+
+
+        </div>
+      </div>
+      
+      Copyright © 2024 Hablu-Programmer | All Rights Reserved
+    </section>
+  </footer> </div>
+
+  <script >
+    const logform = document.getElementById("logform");
+
+
+document.getElementById("formpopup").addEventListener("click", function () {
+  logform.classList.toggle("popup");
+});
+document.getElementById("body").addEventListener("click", function () {
+              logform.classList.remove("popup");
+              logform.classList.remove("pop");
+            });
+            const menubody = document.getElementById("menubody");
+  
+  
+  document.getElementById("menu").addEventListener("click", function () {
+    menubody.classList.toggle("show");
+    menu.classList.toggle("menucross")
+  
+  });
+  
+  
+  document.getElementById("body").addEventListener("click", function () {
+           
+                menubody.classList.remove("show");
+          
+              });
+
+  </script>
+  </body>
+ 
+
+  </html>

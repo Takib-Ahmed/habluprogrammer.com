@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html style="background-color: #0f1729; ;" class="" id="htmltag">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon1-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon1-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>
+    Hablu Programmmer.com
+  </title>
+ 
+<style>
+    .ull{
+   display: block;
+   border:1px solid gray;
+   color: #ffff;
+   background-color: inherit;
+   width: 35%;
+   min-width: 180px;
+   height: 450px;
+   border-radius: 5px;
+   cursor: pointer;
+
+   li:hover{
+ background-color: gray;
+  width: 88%;
+
+
+   }
+   li a:active{
+    background-color: gray;
+    width: 88%;
+
+
+
+   }
+   li:visited{
+    background-color: gray;
+    width: 88%;
+
+
+   }
+    }
+    .Form{
+      list-style: none;
+      display: grid;
+      position: relative;
+    
+    }
+footer{
+  color: #fff;
+}
+   input{
+    border-radius: 5px;
+   
+   }
+
+   
+@media (max-width: 1300px){
+
+  .ull{
+    li:hover{
+ background-color: gray;
+  width: 83.8%;
+
+
+   }
+   li a:active{
+    background-color: gray;
+    width: 83.8%;
+
+
+
+   }
+   li:visited{
+    background-color: gray;
+    width: 83.8%;
+
+
+   }
+  }
+
+
+
+}
+
+.dark {
+
+filter: invert(1) !important;
+
+* {
+    color: Gray 1;
+
+    img:not(.navimg) {
+        filter: invert(1) !important;
+    }
+
+    .img-fluid {
+        filter: invert(1) !important;
+    }
+
+    #switch {
+        img {
+            filter: invert(0) !important;
+        }
+
+        .img2 {
+            display: none;
+        }
+
+        .img1 {
+            display: block;
+        }
+
+
+    }
+
+
+
+    .banner {
+        background-color: black;
+        color: white;
+        filter: invert(1) !important;
+.bannertext {
+filter: invert(1) !important;
+}
+
+    }
+    .arrowimg {
+filter: invert(3)!important;
+}
+}
+.emoji{
+    filter: invert(1) !important;
+}
+
+
+.footertop {
+    filter: invert(1) !important;
+
+    div {
+        filter: invert(2) !important;
+    }
+}
+.jobimg{
+    box-shadow: 10px #fff;
+}
+
+}
+
+.unactive{
+
+ 
+  display: none;
+}
+
+
+.active{
+  display: block !important;
+  z-index: 99999999999999999999999 !important;
+
+
+
+}
+
+.hide{
+  display: none !important;
+  z-index: 0 !important;
+}
+</style>
+
+
+</head>
+
+<body style="margin: 3%;">
+  <center style="position: fixed;top: 50%;transform: translate(-50%,-50%);left: 50%;" class="loadercontainer">
+    <div class="loader" style=""></div></center>
+    <div class="showbody">
+      <div class="bgoverlay" style="height: 100vh;width: 90vw;position: absolute !important;" id="body"></div>
+      <div class="bg " tabindex="-1" id="menubody" aria-labelledby="" style="color: #fff;" >
+         
+        <div class="offcanvas-body" >
+          <ul style="display: grid;">
+            <li><a href="habluprogrammercoursepage.html" >Home</a></li>
+            <li><a href="courseslog.html" >Courses</a></li>
+            <li><a href="privacylog.html" >Privacy Policy</a></li>
+            <li><a href="faqlog.html">FAQ</a></li>
+    
+            <li style="position: relative;" ><a href="insidelog.html"  ><img src="avatar.webp" alt=""  style="width:8% ;" ></a></li> 
+            <li class="menu">
+    
+            </li>
+            <li>Copyright © 2024 Hablu-Programmer</li>
+            
+    
+          </ul>
+               
+        </div>
+      </div> 
+  <header style="margin-right: 2% !important;">
+  <nav> <div> <a href="habluprogrammercoursepage.html"><img src="logoOne.webp" alt="" id="img"></a></div>
+    <div class="navdiv" >
+      <ul>
+        <li><a href="habluprogrammercoursepage.html" class="activ">Home</a></li>
+        <li><a href="courseslog.html" class="activ">Courses</a></li>
+        <li><a href="privacylog.html" class="activ">Privacy Policy</a></li>
+        <li><a href="faqlog.html" class="activ">FAQ</a></li>
+        <li style="position: relative;"><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+          <img src="avatar.webp" alt="" width="24px" style="position: absolute;top: 9.4px;">
+              </span></a></li>
+              <li><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+                <img src="" alt="" width="26px" >
+                    </span></a></li>
+                    <li><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+                      <img src="" alt="" width="26px" >
+                          </span></a></li>
+                          <li><a href="insidelog.html" class="activ"id="account" ><span class="material-symbols-outlined">
+                            <img src="" alt="" width="20px" >
+                                </span></a></li>
+                                <li class="menu" >
+                                  <a class=" md-hidden " href="#menubody" id="menu" style="position: absolute;right: 5%;display: none;top: 5.5px;background-color: #0f172900  ;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 23 23" fill="none">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12ZM13 18C13 17.4477 13.4477 17 14 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H14C13.4477 19 13 18.5523 13 18Z" fill="#ffff"/>
+                                      </svg>
+                                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" id="Capa_1" viewBox="0 0 490 490" xml:space="preserve" style="display: none;">
+                                        <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490   489.292,457.678 277.331,245.004 489.292,32.337 "/>
+                                        </svg>
+                                  </a>
+                        
+                                </li>
+
+      </ul>
+    </div>
+  </nav>
+
+</header>
+<div style="margin-top: 90px;"><hr></div><br>
+<br><br>
+    
+<div style="display: inline-flex;justify-self:center;justify-content: space-around;width: 68%;">
+<div><ul class="ull">
+    <li class="before html  "  style="border-radius: 3px 3px 0 0" id="switch">My Account</li>
+    <li class="before html "  id="btn">Change Password</li>
+    <li class="before html " id="ECBTN">Enrolled Courses</li>
+    <li class="before html " id="spbtn">Support Center</li>
+    <li class="before html "  id="qzbtn" >Quiz & Assignments</li>
+    <li class="before html " id="logbtn" >Log Out</li>
+</ul></div>
+
+<div></div>
+<div style="position: relative;">
+<div style="background-color: inherit;margin-bottom:25%;margin-top: 3%;" class="former">
+<div style="min-width: 90%;position: ;display: none;" class="active" id="divtag" >
+  <ul class="Form">
+  
+ <li style="text-align: center;"><div style=""> <img src="avatar.webp" id="Img" alt="" style="width: 100px;height: 100px;"></div></li>
+
+<li><div><h2>Name</h2>    
+<input type="text">
+<h2>Email</h2>
+<input type="text"></div></li></ul></div>
+
+<div style="min-width: 90%;" class="unactive ECDV" id="centertag" >
+  <ul class="Form">
+  
+ <li><center> <img src="avatar.webp" id="Img" alt="" style="width: 100px;height: 100px;"></center></li>
+
+<li><div><h2>Previous Password</h2>    
+<input type="text">
+<h2>New Password</h2>
+<input type="text"></div></li></ul></div>
+
+
+
+
+<center style="min-width: 90%;" class="unactive" id="EC">
+  <div style="display: flex; gap: 1%; margin: 1%;" ><button class="coursebt" style="background-color: rgb(10, 203, 10);">ALL</button>
+    <button class="coursebt" style="background-color: rgb(6, 214, 214);">Programming</button></div>
+
+<a href="#"><div id="card1" style="margin: 10px;" >
+
+<div id="header1">
+  <h1><img
+      src="https://www.hablu-programmer.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdtsy8mer5%2Fimage%2Fupload%2Fv1701673323%2Fcourses%2Fs44k9ijlxcifrv7onzlw.jpg&w=1080&q=75"
+      alt="" style="width: 100%;"></h1>
+</div>
+<div id="Text1">
+  <p><h4 style="color: whitesmoke;">Journey Of Fontend Web <br> Development </h4><br>
+    ⭐⭐⭐⭐
+  <p style="text-align: right;">260 Students</p>
+   <p style="color: aliceblue;"> 5000৳</p><p style="text-align: right;">:66 Lectures</p>
+  </p>
+</div>
+<div></div>
+</div>
+</a></center>
+
+
+
+<center style="min-width: 90%;display: none;" class="unactive" id="support">
+  <ul class="Form">
+  
+ <li><li style="text-align: center;"><div style=""> <img src="avatar.webp" id="Img" alt="" style="width: 100px;height: 100px;"></div></li>
+</li>
+
+<li><div><h2>Day Support</h2>    
+<p>6.00am - 12.00 am</p>
+<h2>Night Support</h2>
+<p>2.00pm - 11.00 pm</p>
+</div></li></ul></center>
+
+
+
+<center style="min-width: 90%;" class="unactive" id="quiz">
+What is this ?
+
+<a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a></center>
+
+<center style="min-width: 90%;" class="unactive" id="log">
+Do you want to logout?
+  <a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a></center>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<footer class=".footer">
+  <section class="footer" style="color: #fff;">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul class="links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refumd Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Success Story</a></li>
+          <li><a href="#">My Account</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Social Links</h4>
+        <ul class="links">
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">github</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <h4>Contact Info</h4>
+          <li>Call Us: +880 1816986263</li>
+          <li>Address: Dhaka,Bangladesh.</li>
+          <li>Mail Us: support@hablu-programmer.com</li>
+        </ul>
+
+
+      </div>
+    </div>
+   
+ Copyright © 2024 Hablu-Programmer | All Rights Reserved
+  </section>
+</footer>
+
+      <script>
+    const centertag = document.getElementById("centertag");
+            const divtag = document.getElementById("divtag")
+    
+        const EC = document.getElementById("EC");
+           
+ const quiz = document.getElementById("quiz");
+
+            const support = document.getElementById("support");
+ const log = document.getElementById("log");
+
+           
+            document.getElementById("btn").addEventListener("click", function () {  
+                    
+              centertag.classList.toggle("active");
+              centertag.classList.remove("hide")
+              divtag.classList.toggle("hide");
+       
+              log.classList.toggle("hide");
+
+              EC.classList.toggle("hide");
+              centertag.classList.remove("unactive");
+            });
+    
+        
+  
+            document.getElementById("ECBTN").addEventListener("click", function () {
+              EC.classList.remove("hide");
+              EC.classList.toggle("active");
+              EC.classList.remove("unactive");
+              divtag.classList.remove("active");
+              centertag.classList.toggle("hide");
+              log.classList.toggle("hide");
+
+              support.classList.remove("active");
+
+            });
+
+
+  
+  document.getElementById("spbtn").addEventListener("click", function () {
+    support.classList.remove("hide");
+    support.classList.toggle("active");
+    EC.classList.toggle("unactive");
+    EC.classList.remove("active");
+
+
+
+
+   quiz.classList.toggle("hide");   
+
+
+  });
+
+ 
+  
+  document.getElementById("qzbtn").addEventListener("click", function () {  
+    quiz.classList.remove("hide");
+    quiz.classList.toggle("active");
+    quiz.classList.remove("unactive");
+
+log.classList.toggle("hide");
+   support.classList.remove("active");
+   divtag.classList.remove("active");
+
+  });
+ 
+  
+  document.getElementById("logbtn").addEventListener("click", function () {
+    log.classList.remove("hide");
+    log.classList.toggle("active");
+   quiz.classList.toggle("hide");
+   divtag.classList.remove("active");
+   log.classList.remove("unactive");
+   
+  });
+
+
+  const menubody = document.getElementById("menubody");
+
+
+document.getElementById("menu").addEventListener("click", function () {
+  menubody.classList.toggle("show");
+  menu.classList.toggle("menucross")
+
+});
+
+
+document.getElementById("body").addEventListener("click", function () {
+         
+              menubody.classList.remove("show");
+        
+            });
+
+        </script></div>
+</body>
+
+
+</html>
